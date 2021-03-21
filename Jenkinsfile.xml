@@ -12,9 +12,9 @@
       <option name="HAS_STRING_ESCAPES" value="true" />
       <option name="LINE_COMMENT_AT_START" value="true" />
     </options>
-    <keywords keywords="def;else;if;import;print;return" ignore_case="true" />
-    <keywords2 keywords="node" />
-    <keywords3 keywords="field;library;stage;string" />
+    <keywords keywords="def;else;if;import;print;return;sh" ignore_case="true" />
+    <keywords2 keywords="node;docker;dockerfile;agent;options;steps;environment;dir" />
+    <keywords3 keywords="field;library;stage;string;stages;steps;script" />
     <keywords4 keywords="try;catch;finally" />
   </highlighting>
   <extensionMap>
