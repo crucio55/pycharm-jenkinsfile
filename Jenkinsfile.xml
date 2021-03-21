@@ -20,5 +20,6 @@
   <extensionMap>
     <mapping pattern="Jenkinsfile" />
     <mapping pattern="Jenkinsfile*" />
+    <mapping pattern="*.Jenkins" />
   </extensionMap>
 </filetype>
