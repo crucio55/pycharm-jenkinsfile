@@ -1,5 +1,5 @@
 function jetbrains-jenkinsfile --description "Install jenkinsfile support to all installed JetBrains IDEs"
-    set -l IDE_DIRS ~/.config/JetBrains/*
+    set -l IDE_DIRS ~/.config/JetBrains/* ~/.local/share/JetBrains/Toolbox/apps/*/*/*/
 
     for ide_dir in $IDE_DIRS
         set -l conf_dir "$ide_dir/filetypes"
